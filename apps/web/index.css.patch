@@ -1,0 +1,14 @@
+--- a/apps/web/index.html
++++ b/apps/web/index.html
+@@
+     <style>
+@@
+-      /* Toasts */
+-      .toaster{position:fixed;top:16px;right:16px;display:flex;flex-direction:column;gap:8px;z-index:9999}
++      /* Toasts (bottom-left) */
++      .toaster{position:fixed;bottom:16px;left:16px;display:flex;flex-direction:column;gap:8px;z-index:9999}
+       .toast{display:flex;align-items:center;gap:10px;background:#0f172a;border:1px solid #1f2937;border-left-width:4px;border-radius:12px;padding:10px 12px;color:#e5e7eb;box-shadow:0 12px 40px rgba(0,0,0,.45);animation:slideIn .2s ease-out}
+@@
++      /* Invalid inputs */
++      .input.invalid{border-color:#ef4444; box-shadow:0 0 0 4px rgba(239,68,68,.25);}
+     </style>

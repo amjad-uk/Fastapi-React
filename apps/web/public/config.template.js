@@ -1,0 +1,5 @@
+window.__APP_CONFIG__ = {
+  API_BASE: "%%WEB_API_BASE%%",
+  ENVIRONMENT: "%%ENVIRONMENT%%",
+  SENTRY_DSN: "%%SENTRY_DSN%%"
+};
